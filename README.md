@@ -23,33 +23,11 @@ cappuccino: Order a cappuccino ($3.00)
 report: View current resource levels
 off: Turn off the machine
 
-
-💻 Code Structure
-Main Components:
-
-Resource Management
-
-pythonCopydef is_resource_sufficient(order_ingredients):
-    """Returns True when order can be made, False if ingredients are insufficient."""
-
-Payment Processing
-
-pythonCopydef process_coins():
-    """Returns the total calculated from coins inserted."""
-
-Transaction Handling
-
-pythonCopydef is_transaction_successful(money_received, drink_cost):
-    """Return True when the payment is accepted, or False if money is insufficient."""
-
-Drink Preparation
-
-pythonCopydef make_coffee(drink_name, order_ingredients):
-    """Deduct the required ingredients from the resources."""
 🎯 How It Works
 
 User selects a drink or enters a command
 Program checks resource availability
+
 If resources are sufficient:
 
 User is prompted to insert coins

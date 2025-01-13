@@ -13,8 +13,7 @@ Maintenance reporting system
 Python 3.6 or higher
 
 🎮 Usage
-Run the program by executing:
-bashCopypython coffee_machine.py
+
 Available Commands:
 
 espresso: Order an espresso ($1.50)
